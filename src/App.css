@@ -1,0 +1,32 @@
+
+.navbar{
+--bs-navbar-toggler-border-color:white !important;
+--bs-navbar-toggler-icon-bg:url(./img/Group 1.png) !important
+}
+
+#navbarScrollingDropdown{
+    color: white;
+}
+.pet{
+    padding-right: 300px !important;
+}
+.navbar-toggler-icon{
+background-image: var(--bs-navbar-toggler-icon-bg) !important;
+}
+.spa{
+    font-size: 55px;
+}
+.pet-desc{
+    font-weight: 500;
+}
+.carousel-indicators [data-bs-target]{
+    display: none !important;
+}
+.h1{
+    font-size: 68px  !important;
+}
+.boarding{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px
+}
